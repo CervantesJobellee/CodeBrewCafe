@@ -135,3 +135,10 @@ footer {
     font-size: 50px;
     margin-bottom:auto;
 }
+.footer {
+    font-family: Arial, sans-serif;
+    background-color: #4c3c32;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
