@@ -6,7 +6,13 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: cursive, handwriting;
-    background-color: #fde353;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #381a09;
 }
 
@@ -27,13 +33,7 @@ nav {
 }
 
 .Logo1 img {
-    margin: 0;
-    padding: 0;
-    background-image: url('img/img1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    
 }
 
 nav ul {
