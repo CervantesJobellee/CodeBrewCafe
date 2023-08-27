@@ -27,8 +27,13 @@ nav {
 }
 
 .Logo1 img {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/img1.jpg');
     background-size: cover;
-    max-width: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 nav ul {
