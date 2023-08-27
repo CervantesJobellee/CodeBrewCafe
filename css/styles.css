@@ -37,8 +37,9 @@ nav ul {
 }
 
 nav a {
-    text-decoration: none;
-    color: #4c3c32;
+    text-decoration: "Sip, Relax, Repeat";
+    color: #F2EAD3;
+    font-family: 'Kalam'; font-size: 25px;
     font-weight: bold;
     transition: color 0.3s;
 }
