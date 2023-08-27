@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Menu</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/CBlogo.png" alt="Code Brew Cafe Logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+  <h1>Contact Information</h1>
+  <br>
+
+   <p>Cafe Address: 2nd floor of Robinsons Place Palawan, Brgy. San Manuel, Puerto Princesa City.</p>
+   <br>
+   <p>Contact Number: 09215555555</p>
+   <br>
+   <p>Email: CodeBrewCafe@gmail.com</p>
+
+   <br>
+
+   <form action="submit_form.php" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+    
+    <input type="submit" value="Submit">
+</form>
+
+    <footer class="third-footer">
+        <p>&copy; Code Brew Café. All rights reserved.</p>
+    </footer>
+</body>
+</html>
