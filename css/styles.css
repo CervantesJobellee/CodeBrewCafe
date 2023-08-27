@@ -27,6 +27,7 @@ nav {
 }
 
 .Logo1 img {
+    background-size: cover;
     max-width: 500px;
 }
 
