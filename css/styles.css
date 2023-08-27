@@ -26,13 +26,7 @@ nav {
 }
 
 .Logo1 img {
-    margin: 0;
-    padding: 0;
-    background-image: url('C:\Users\Jobelle E. Cervantes\OneDrive\Documents\GitHub\Portfolio\CodeBrewCafe\img/img1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    max-width: fit-content;
 }
 
 nav ul {
